@@ -18,6 +18,10 @@ p {
 
 /* Headings */
 
+.auto-type{
+  color: #7286D3;
+}
+
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3rem;
@@ -44,10 +48,12 @@ p {
 /* Sections */
 
 .colored-section {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   background-color: #8EA7E9;
 }
 
 .colored-section2 {
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   background-color: #7286D3;
 }
 
@@ -195,6 +201,8 @@ p {
 }
 
 .galaxy-runner-trailer{
+  width: 100%;
+  height: 100%;
   border-radius: 20px;
 }
 
@@ -209,6 +217,7 @@ p {
   width: 70%;
   transform: rotate(-25deg);
   position: absolute;
+  wi
   top: 0%;
   left: 25%;
 }
@@ -217,12 +226,19 @@ p {
 
 .B07-car-assignment {
   text-align: left;
-  background-image: url("../images/backgrounds/car-background.png");
-  background-position: center center;
-  background-size: cover;
+  background-color: #2a2b2e;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   height: 100vh;
   position: relative;
   z-index: 1;
+}
+
+.car-img {
+  width: 110%;
+  transform: translate(-10%, 20%);
+  position: absolute;
+  top: 0%;
+  left: 25%;
 }
 
 /* christmas-delivery */

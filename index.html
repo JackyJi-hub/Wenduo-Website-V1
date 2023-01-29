@@ -5,17 +5,21 @@
   <meta charset="utf-8">
   <title>Wenduo</title>
 
+   <!-- Favicon-->
   <link rel="icon" href="images/icons/app-icon.png">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
+  <!-- Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-
+  
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/5dff2572ad.js" crossorigin="anonymous"></script>
 
@@ -59,6 +63,11 @@
             <li class="nav-item">
               <a class="nav-link" href="#contacts">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="documents/Wenduo_Resume.pdf"
+                class="btn btn-outline-light btn-lg" target="_blank">
+                Resume</a>
+            </li>
           </ul>
 
         </div>
@@ -72,9 +81,10 @@
 
       <div class="row">
 
-        <div class="title-text col-lg-5">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="title-text col-lg-5">
           <h2 class="small-heading">Hello, my name is</h2>
           <h1 class="big-heading">Wenduo Ji</h1>
+          <h2 >I am a <span class="auto-type"></span></h2>
           <p>You can also call me Jacky.
             I am currently seeking a software engineer internship for summer 2023
           </p>
@@ -92,12 +102,12 @@
     <div class="container-fluid">
 
       <div class="row about-box">
-        <div class="about-left col-md-6">
+        <div data-aos="fade-right"data-aos-duration="800" class="about-left col-md-6">
           <h2 class="about-title ">About Me</h2>
           <img class="pfp-img" src="images/icons/pfp.jpeg" alt="code-img">
         </div>
 
-        <div class="about-right col-md-6">
+        <div data-aos="fade-left" data-aos-duration="800" class="about-right col-md-6">
           <p class="about-summary ">My name is Jacky Ji and I am a second-year student studying at the
             University of Toronto Scarborough
             specializing in Computer Science.
@@ -108,13 +118,13 @@
       </div>
 
       <div class="row about-box">
-        <div class="working-on-left col-sm-6">
+        <div data-aos="fade-right"data-aos-duration="800" class="working-on-left col-sm-6">
           <p class="working-on-summary">Currently, I am working on a website that lists upcoming festive
             events in North America. This website will link users directly to the upcoming events and provide
             information about them.</p>
         </div>
 
-        <div class="working-on-right col-sm-6">
+        <div data-aos="fade-left" data-aos-duration="800" class="working-on-right col-sm-6">
           <h2 class="working-on-title">Currently Working On</h2>
           <img class="working-on-img" src="images/icons/working-on.png" alt="code-img">
         </div>
@@ -129,7 +139,7 @@
     <div class="container-fluid">
 
       <h1 class="skill-title">Programming Languages</h1>
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/java.png" alt="java-img">
@@ -155,7 +165,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/C-sharp.png" alt="C#-img">
@@ -181,7 +191,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/javascript.png" alt="javascript-img">
@@ -207,7 +217,7 @@
 
       <h1 class="skill-title">Software Technologies</h1>
 
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/visual-studio.png" alt="visual-studio-img">
@@ -233,7 +243,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/eclipse.png" alt="eclipse-img">
@@ -259,7 +269,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div data-aos="flip-down" data-aos-duration="1000" class="row">
         <div class="skill-column col-lg-4">
           <div class="skill-box">
             <img class="img" src="images/icons/mongodb.png" alt="mongodb-img">
@@ -275,7 +285,7 @@
   <section class="colored-section" id="projects">
     <div class="galaxy-runner container-fluid">
       <div class="row">
-        <div class="col-lg-8">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" class="col-lg-8">
           <br><br><br><br>
           <h1 class="big-heading">Galaxy Runner</h1>
           <h2 class="small-heading">Start Your Journey Today</h2>
@@ -293,7 +303,7 @@
 
 
 
-        <div class="col-lg-4">
+        <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-4">
           <video class="galaxy-runner-trailer" width="318.75" height="566.95" controls autoplay muted>
             <source src="video/GalaxyRunnerTrailer.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -304,10 +314,10 @@
 
     <div class="B07-scheduling-app container-fluid">
       <div class="row">
-        <div class="col-lg-6">
+        <div data-aos="fade-right" data-aos-duration="1000" class="col-lg-6">
           <img class="scheduling-app-img" src="images/backgrounds/scheduling-app.png" alt="app-mockup">
         </div>
-        <div class="col-lg-6">
+        <div data-aos="zoom-in-left" data-aos-duration="1000" class="col-lg-6">
           <br><br><br>
           <h1 class="big-heading">Event Scheduling App</h1>
           <p class="small-heading">This project was created using Java and Android Studio.
@@ -318,14 +328,13 @@
           <a href="https://github.com/Aarin06/CSCB07_Project" class="btn btn-dark btn-lg" target="_blank"><i
               class="fa-brands fa-github"></i>
             Download</a>
-
         </div>
       </div>
     </div>
 
     <div class="B07-car-assignment container-fluid">
       <div class="row">
-        <div class="col-lg-6">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" class="col-lg-6">
           <br><br><br>
           <h1 class="big-heading">3D Object Transformation</h1>
           <p class="small-heading">This project was created using Java and Eclipse. It is an application that can read
@@ -337,15 +346,18 @@
             target="_blank"><i class="fa-brands fa-github"></i>
             Download</a>
         </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="col-lg-6">
+          <img class="car-img" src="images/icons/car.png" alt="car-image">
+        </div>
       </div>
     </div>
 
     <div class="christmas-delivery container-fluid">
       <div class="row">
-        <div class="col-lg-6">
+        <div data-aos="fade-right" data-aos-duration="1000" class="col-lg-6">
           <img class="cookie-img" src="images/icons/cookie-icon.png" alt="app-mockup">
         </div>
-        <div class="col-lg-6">
+        <div data-aos="zoom-in-left" data-aos-duration="1000" class="col-lg-6">
           <br><br><br>
           <div class="christmas-delivery-description">
             <h1 class="big-heading">Christmas Delivery</h1>
@@ -369,9 +381,9 @@
 
   <!-- Contact -->
   <section class="colored-section" id="contacts">
-    <div class="contact-me container-fluid">
+    <div data-aos="flip-down" data-aos-duration="1000" class="contact-me container-fluid">
       <h2 class="small-heading">Get In Touch</h2>
-      <h3 class="small-heading">If you like what you see, <br> 
+      <h3 class="small-heading">If you like what you see, <br>
         please feel free to contact me!</h3>
       <h3 class="small-heading"></h3>
       <form action="mailto:jacky.ji12345@gmail.com">
@@ -392,6 +404,20 @@
     </div>
   </footer>
 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["software engineer", "game developer", "computer scientist", "fullstack developer"],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true
+    })
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="index.js" charset="utf-8"></script>
 </body>
 
