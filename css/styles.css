@@ -44,16 +44,16 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #FE8F8F;
+  background-color: #8EA7E9;
 }
 
 .colored-section2 {
-  background-color: #ffb0ae;
+  background-color: #7286D3;
 }
 
 /* Navigation Bar */
 .navbar .container-fluid{
-  backdrop-filter: blur(20px) grayscale(10%);
+  backdrop-filter: blur(20px) grayscale(50%);
   padding: 0% 15%;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
