@@ -17,10 +17,10 @@ p {
 }
 
 /* Headings */
-
+/* 
 .auto-type{
   color: #7286D3;
-}
+} */
 
 .big-heading {
   font-family: "Montserrat-Black";
@@ -217,7 +217,6 @@ p {
   width: 70%;
   transform: rotate(-25deg);
   position: absolute;
-  wi
   top: 0%;
   left: 25%;
 }
@@ -263,8 +262,9 @@ p {
 }
 
 .christmas-delivery-description{
-  padding: 5% 1% 5% 5%;
-  backdrop-filter: blur(20px) grayscale(10%);
+  padding: 5% 5% 5% 5%;
+  background-color: white;
+  /* backdrop-filter: blur(20px) grayscale(10%); */
   border-radius: 20px;
 }
 
@@ -274,6 +274,24 @@ p {
 
 .christmas-delivery .small-heading{
   color: black;
+}
+
+/* memo-website */
+
+.memo-website {
+  text-align: left;
+  background-color: #2a2b2e;
+  background-image: url("../images/backgrounds/memo-background.png");
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.memo-website-description{
+  padding: 5% 5% 5% 5%;
+  background-color: #EFA3C8;
+  /* backdrop-filter: blur(20px) grayscale(10%); */
+  border-radius: 20px;
 }
 
 /* Buttons */
