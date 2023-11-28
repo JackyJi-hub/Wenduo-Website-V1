@@ -1,0 +1,68 @@
+@import "../../../data/styles.css";
+
+.work {
+    display: flex;
+}
+
+.work a {
+    text-decoration: none;
+}
+
+.work-left-side {
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.work-right-side {
+    flex-basis: 80%;
+    min-width: 700px;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 30px;
+}
+
+.work-right-side:hover {
+    background: #fafafa;
+    opacity: 1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.work-date {
+    padding-top: 30px;
+    font-size: 15px;
+    color: var(---secondary-color);
+}
+
+.work-title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.work-description {
+    padding-top: 10px;
+    color: var(--secondary-color);
+    font-weight: 480;
+    line-height: 25px;
+}
+
+.work-link {
+    padding-top: 10px;
+    font-size: 14px;
+    color: var(--link-color);
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .work-left-side {
+        min-width: 10%;
+        max-width: 10%;
+    }
+
+    .work-right-side {
+        flex-basis: 90%;
+        min-width: 85%;
+        max-width: 85%;
+    }
+}
