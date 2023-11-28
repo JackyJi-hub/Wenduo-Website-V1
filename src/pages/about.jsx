@@ -58,7 +58,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="jacky-ji-linkedin.png"
+											src= {process.env.PUBLIC_URL + "/jacky-ji-linkedin.png"}
 											alt="about"
 											className="about-image"
 										/>

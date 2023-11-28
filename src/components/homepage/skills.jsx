@@ -15,7 +15,7 @@ const Skills = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./icons/python.png"
+								src={process.env.PUBLIC_URL + "/icons/python.png"}
 								alt="facebook"
 								className="work-image"
 							/>
@@ -24,7 +24,7 @@ const Skills = () => {
 
 						<div className="work">
 							<img
-								src="./icons/java.png"
+								src={process.env.PUBLIC_URL + "/icons/java.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -33,7 +33,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/C.png"
+								src={process.env.PUBLIC_URL + "/icons/C.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -42,7 +42,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/C-sharp.png"
+								src={process.env.PUBLIC_URL + "/icons/C-sharp.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -51,7 +51,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/html.png"
+								src={process.env.PUBLIC_URL + "/icons/html.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -60,7 +60,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/css.png"
+								src={process.env.PUBLIC_URL + "/icons/css.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -69,7 +69,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/javascript.png"
+								src={process.env.PUBLIC_URL + "/icons/javascript.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -78,7 +78,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/sql.png"
+								src={process.env.PUBLIC_URL + "/icons/sql.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -87,7 +87,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/react.png"
+								src={process.env.PUBLIC_URL + "/icons/react.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -96,7 +96,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/unity.png"
+								src={process.env.PUBLIC_URL + "/icons/unity.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -105,7 +105,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/git.png"
+								src={process.env.PUBLIC_URL + "/icons/git.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -114,7 +114,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/android-studio.png"
+								src={process.env.PUBLIC_URL + "/icons/android-studio.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -123,7 +123,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/nodejs.png"
+								src={process.env.PUBLIC_URL + "/icons/nodejs.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -132,7 +132,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/mongodb.png"
+								src={process.env.PUBLIC_URL + "/icons/mongodb.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -141,7 +141,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/mysql.png"
+								src={process.env.PUBLIC_URL + "/icons/mysql.png"}
 								alt="twitter"
 								className="work-image"
 							/>
@@ -150,7 +150,7 @@ const Skills = () => {
 
                         <div className="work">
 							<img
-								src="./icons/postgresql.png"
+								src={process.env.PUBLIC_URL + "/icons/postgresql.png"}
 								alt="twitter"
 								className="work-image"
 							/>

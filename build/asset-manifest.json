@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wenduo-Website/static/css/main.04fb20cc.css",
+    "main.js": "/Wenduo-Website/static/js/main.db583277.js",
+    "static/js/787.512dd3f2.chunk.js": "/Wenduo-Website/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/Wenduo-Website/index.html",
+    "main.04fb20cc.css.map": "/Wenduo-Website/static/css/main.04fb20cc.css.map",
+    "main.db583277.js.map": "/Wenduo-Website/static/js/main.db583277.js.map",
+    "787.512dd3f2.chunk.js.map": "/Wenduo-Website/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04fb20cc.css",
+    "static/js/main.db583277.js"
+  ]
+}

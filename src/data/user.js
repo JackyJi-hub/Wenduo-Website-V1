@@ -3,7 +3,7 @@ const INFO = {
 		title: "Wenduo Ji",
 		name: "Wenduo Ji",
 		email: "jacky.ji12345@gmail.com",
-		logo: "../icons/app-icon.png",
+		logo: process.env.PUBLIC_URL + "/icons/app-icon.png",
 	},
 
 	socials: {
